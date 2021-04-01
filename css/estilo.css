@@ -1,19 +1,15 @@
+@charset "UTF-8" 
 /*Tudo aqui não passa de treinamento simples*/
-@charset "UTF-8"
-
-{
+body {
     font-family: Arial, sans-serif;
-    font-size: 14pt;
 }
-
-header#cabecalho ul{
+ header#cabecalho ul{
     list-style: none;
     text-transform: uppercase;
     position: absolute;
     left: 300px;
     top: 221px;
 }
-
 header#cabecalho li{
     display: inline-block;
     background-color:pink;
