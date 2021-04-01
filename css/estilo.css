@@ -1,10 +1,7 @@
-@charset "UTF-8" 
+@charset "UTF-8";
 /*Tudo aqui não passa de treinamento simples*/
-body{
-    font-family: Arial, sans-serif;
-}
 
- header#cabecalho ul{
+ header #cabecalho ul{
     list-style: none;
     text-transform: uppercase;
     position: absolute;
@@ -12,18 +9,18 @@ body{
     top: 221px;
 }
 
-header#cabecalho li{
+header #cabecalho li{
     display: inline-block;
     background-color:pink;
     padding: 5px;
     margin: 20px;
 }
 
-header#cabecalho a{
+header #cabecalho a{
     text-decoration: none;
 }
 
-header#cabecalho img{
+header #cabecalho img{
     position: relative;
 
 }
