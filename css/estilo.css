@@ -1,8 +1,9 @@
 @charset "UTF-8" 
 /*Tudo aqui não passa de treinamento simples*/
-body {
+body{
     font-family: Arial, sans-serif;
 }
+
  header#cabecalho ul{
     list-style: none;
     text-transform: uppercase;
@@ -10,15 +11,18 @@ body {
     left: 300px;
     top: 221px;
 }
+
 header#cabecalho li{
     display: inline-block;
     background-color:pink;
     padding: 5px;
     margin: 20px;
 }
+
 header#cabecalho a{
     text-decoration: none;
 }
+
 header#cabecalho img{
     position: relative;
 
