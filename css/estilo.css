@@ -25,5 +25,10 @@ header#cabecalho a{
 
 header#cabecalho img{
     position: relative;
+}
 
+main p{
+    margin: auto;
+    background-color: blueviolet;
+    padding: 3px 3px 3px 0px;
 }
