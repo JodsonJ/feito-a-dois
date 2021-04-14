@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+ul#foto{
+    list-style-type: none;
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+ul#foto li{
+
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid pink;
+    background-color: pink;
+    box-shadow: 2px 2px 9px rgba(0,0,0, .4);
+}
+ul#foto li#foto01{
+    background: url(../imagens/barraca-groud.jpeg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 960px 1280px;
+    background-color: #fff;
+}
+
+ul#foto li#foto02{
+    background: url(../imagens/barraca-praca.jpeg);
+    background-position: 50% 50%;
+    background-size: 960px 1280px;
+    background-color: #fff;
+}
+
+ul#foto li#foto03{
+    background: url(../imagens/barraca-feira.jpeg);
+    background-position: 50% 50%;
+    background-size: 1263px 1280px;
+    background-color: #fff;
+}
+
+ul#foto li#foto04{
+    background: url(../imagens/sapo-verde-rosa.jpeg);
+    background-position: 50% 50%;
+    background-size: 1080px 1080px;
+    background-color: #fff;
+}
+
+ul#foto li#foto05{
+    background: url(../imagens/vaso-chocolate.jpeg);
+    background-position: 50% 50%;
+    background-size: 960px 1280px;
+    background-color: #fff;
+}
+
+ul#foto li#foto06{
+    background: url(../imagens/vaso-chocolate-madeira.jpeg);
+    background-position: 50% 50%;
+    background-size: 1080px 1080px;
+    background-color: #fff;
+}
+
+ul#foto li#foto07{
+    background: url(../imagens/vaso-cogumelo.jpeg);
+    background-position: 50% 50%;
+    background-size: 1280px 1056px;
+    background-color: #fff;
+}
+
+ul#foto li#foto08{
+    background: url(../imagens/vaso-groud.jpeg);
+    background-position: 50% 50%;
+    background-size: 920px 1280px;
+    background-color: #fff;
+}
+
+ul#foto li#foto09{
+    background: url(../imagens/vaso-mini-jardim-1.jpeg);
+    background-position: 50% 50%;
+    background-size: 1280px 1000px;
+    background-color: #fff;
+}
+
+ul#foto li#foto10{
+    background: url(../imagens/vaso-mini-jardim-2.jpeg);
+    background-position: 50% 50%;
+    background-size: 1280px 1203px;
+    background-color: #fff;
+}
+
+ul#foto li#foto11{
+    background: url(../imagens/vaso-mini-jardim-4.jpeg);
+    background-position: 50% 50%;
+    background-size: 960px 1280px;
+    background-color: #fff;
+}
+
+ul#foto li#foto12{
+    background: url(../imagens/vaso-mini-jardim-5.jpeg);
+    background-position: 50% 50%;
+    background-size: 1280px 1103px;
+    background-color: #fff;
+}
+
+ul#foto li#foto13{
+    background: url(../imagens/vaso-mini-jardim-6.jpeg);
+    background-position: 50% 50%;
+    background-size: 960px 1280px;
+    background-color: #fff;
+}
+
+ul#foto li#foto14{
+    background: url(../imagens/vaso-mini-jardim-7.jpeg);
+    background-position: 50% 50%;
+    background-size: 1280px 1077px;
+    background-color: #fff;
+}
+
+ul#foto li#foto15{
+    background: url(../imagens/vaso-min-jardim-3.jpeg);
+    background-position: 50% 50%;
+    background-size: 1080px 1080px;
+    background-color: #fff;
+}
+
+ul#foto li#foto16{
+    background: url(../imagens/vaso-pano.jpeg);
+    background-position: 50% 50%;
+    background-size: 960px 1280px;
+    background-color: #fff;
+}
+
+ul#foto li#foto17{
+    background: url(../imagens/vaso-parede.jpeg);
+    background-position: 50% 50%;
+    background-size: 960px 1280px;
+    background-color: #fff;
+}
+
+ul#foto li#foto18{
+    background: url(../imagens/vaso-pedra-grande.jpeg);
+    background-position: 50% 50%;
+    background-size: 1280px 960px;
+    background-color: #fff;
+}
+
+ul#foto li#foto19{
+    background: url(../imagens/vaso-pedra-preto.jpeg);
+    background-position: 50% 50%;
+    background-size: 581px 581px;
+    background-color: #fff;
+}
+
+ul#foto li#foto20{
+    background: url(../imagens/vaso-pedra-quatro.jpeg);
+    background-position: 50% 50%;
+    background-size: 1080px 1080px;
+    background-color: #fff;
+}
+
+ul#foto li#foto21{
+    background: url(../imagens/vaso-pedra-tres.jpeg);
+    background-position: 50% 50%;
+    background-size: 1080px 1080px;
+    background-color: #fff;
+}
+
+ul#foto li#foto22{
+    background: url(../imagens/vaso-tartaruga.jpeg);
+    background-position: 50% 50%;
+    background-size: 1280px 1191px;
+    background-color: #fff;
+}
+
+ul#foto li#foto23{
+    background: url(../imagens/vaso-tartaruga-tres.jpeg);
+    background-position: 50% 50%;
+    background-size: 1280px 960px;
+    background-color: #fff;
+}
