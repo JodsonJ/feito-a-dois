@@ -20,7 +20,7 @@ div#interface {
 }
 
 img#banner {
-    position: absolute;
+    position: relative;
     padding: 0px 0px 0px 300px;
     width: 600px;
     margin-top: 0px;
