@@ -21,7 +21,9 @@ div#interface {
 
 img#banner {
     position: absolute;
-    padding: 0px 10px 10px 115px;
+    padding: 0px 0px 0px 300px;
+    width: 600px;
+    margin-top: 0px;
     
 }
 
