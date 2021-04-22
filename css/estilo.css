@@ -7,8 +7,10 @@ body{
 }
 
 div#interface {
-    box-shadow: 0px 0px 10px;
-    padding: 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .8);
+    padding: 10px;
+    width: 1190px;
+    margin: -20px auto 0px auto;
     background: url(../imagens/suculenta-mesa.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
@@ -76,12 +78,38 @@ section h2{
     margin: 5px;
     padding: 5px;
     margin-top: 5px;
+    width: 570px;
+    margin-left: auto;
 }
 section#corpo {
     width: 580px;
     display:block;
     padding-left: 15px;
-    float: none;
+    float: left;
+}
+aside#lateral{
+    width: 570px;
+    margin-top: 116px;
+    padding-right: 0px;
+    display: block;
+    float: right;
+    margin-left: auto;
+}
+
+aside#lateral img{
+    width: 300px;
+    border: solid pink;
+    position: absolute;
+    margin-left: 125px;
+}
+
+aside#lateral h1{
+    font-size: 15pt;
+    font-family: cursive, sans-serif;
+    background-color: violet;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 5px;
 }
 
 footer#rodape p{
