@@ -1,15 +1,29 @@
 @charset "UTF-8";
 
+div#interface{
+    background: url(../imagens/cacto-parede.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+div#texto{
+    font-size: 12pt;
+    font-family: cursive, sans-serif;
+    background-color: violet;
+    text-align: justify;
+}
+
 ul#foto{
     list-style-type: none;
-    width: 700px;
+    width: 1000px;
     margin: 0 auto;
-    padding: 50px;
+    margin-right: -10px;
+    margin-top: -50px;
+    padding: 60px;
     overflow: hidden;
 }
 
 ul#foto li{
-
     float: left;
     width: 200px;
     height: 200px;
@@ -18,7 +32,6 @@ ul#foto li{
     background-color: pink;
     box-shadow: 2px 2px 9px rgba(0,0,0, .4);
 }
-
 
 ul#foto li span{
     opacity: 0;

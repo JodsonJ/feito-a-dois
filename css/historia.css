@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 div#interface{
-    background: url(../imagens/cacto-parede-amarela.jpg) no-repeat;
+    background: url(../imagens/planta-parede-azul.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
 }
