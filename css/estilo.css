@@ -1,14 +1,18 @@
 @charset "UTF-8";
 /*Tudo aqui não passa de treinamento simples*/
+
 body{
     font-size: 14pt;
     background-color: aliceblue;
 }
 
 div#interface {
-    background-color:#fff;
     box-shadow: 0px 0px 10px;
     padding: 0px;
+    background: url(../imagens/suculenta-mesa.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
 
 }
  header#cabecalho ul{
@@ -16,26 +20,28 @@ div#interface {
     text-transform: uppercase;
     position: absolute;
     left: 300px;
-    top: 221px;
+    top: 330px;
 }
 
 img#banner {
-    position: relative;
+    position: absolute;
     padding: 0px 0px 0px 300px;
-    width: 600px;
-    margin-top: 0px;
-    
+    top: -110px;
+    left: -135px;
+    width: 900px;
 }
 
 header#cabecalho li{
     display: inline-block;
-    background-color:pink;
     padding: 5px;
     margin: 20px;
 }
 
 header#cabecalho a{
+    font-size: 15pt;
+    font-family: cursive, sans-serif;
     text-decoration: none;
+    color: black;
 }
 
  header#cabecalho a:hover {
@@ -47,26 +53,31 @@ header#cabecalho img{
     position: relative;
 }
 
-main p{
+section p{
     font-family: cursive;
-    font-size: 10pt;
+    font-size: 13pt;
     text-align: justify;
     text-indent: 20px;
     margin: 0px;
     padding: 3px 3px 3px 0px;
     display: block;
     box-shadow: black;
+    background-color: aliceblue;
 }
-main h1{
+section h1{
+    font-size: 30pt;
+    font-family: cursive, sans-serif;
+    text-align: justify;
+}
+section h2{
     font-size: 15pt;
-    font-family: cursive;
+    font-family: cursive, sans-serif;
     background-color: violet;
     margin: 5px;
     padding: 5px;
     margin-top: 5px;
 }
-
-main#corpo {
+section#corpo {
     width: 580px;
     display:block;
     padding-left: 15px;
@@ -75,8 +86,8 @@ main#corpo {
 
 footer#rodape p{
     text-align: center;
-    font-family: cursive;
-    font-size: 8pt;
+    font-family: cursive, sans-serif;
+    font-size: 15pt;
     clear: both;
     border-top: 1px solid black;
 }
