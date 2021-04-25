@@ -5,3 +5,45 @@ div#interface{
     background-size: cover;
     background-position: center center;
 }
+
+form {
+    width: 700px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+input, textarea{
+    font-family: cursive, sans-serif;
+    font-weight: normal;
+    font-size: 11pt;
+}
+
+input:hover, textarea:hover{
+    background-color: #ddd;
+}
+
+legend{
+    color: black;
+    font-size: 14pt;
+    font-family: cursive,sans-serif;
+    font-weight: bold;
+}
+
+fieldset#usuario legend{
+    margin-left: ;
+}
+
+fieldset{
+    border-color:#888;
+    margin: 30px;
+    background-color:rgba(255, 255, 255, .4);
+}
+
+fieldset#sexo{
+    width: 150px;
+    background-color: rgba(255, 255, 255, .1);
+}
+
+fieldset#mensagem{
+    background-color: rgba(255, 255, 255, .1);
+}
